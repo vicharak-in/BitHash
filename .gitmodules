@@ -1,0 +1,3 @@
+[submodule "rtl/rah-bit"]
+	path = rtl/rah-bit
+	url = https://github.com/vicharak-in/rah-bit.git
