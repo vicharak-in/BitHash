@@ -1,0 +1,74 @@
+{
+    "args": [
+        "-o",
+        "synchronous_fifo",
+        "--base_path",
+        "/home/neel/Downloads/BitHash/rtl/BitHash/ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "7.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "1",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "8",
+        "DATA_WIDTH": "48",
+        "MODE": "\"STANDARD\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "240",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "3",
+        "PEA_INTERNAL": "0",
+        "PEN_INTERNAL": "0",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0",
+        "RAM_STYLE": "\"block_ram\"",
+        "OVERFLOW_PROTECT": "1",
+        "UNDERFLOW_PROTECT": "1"
+    },
+    "output": {
+        "external_source_source": [
+            "synchronous_fifo/synchronous_fifo_tmpl.v",
+            "synchronous_fifo/synchronous_fifo_tmpl.vhd",
+            "synchronous_fifo/synchronous_fifo.v",
+            "synchronous_fifo/synchronous_fifo_define.vh"
+        ],
+        "external_example_example": [
+            "synchronous_fifo/T20F256_devkit/fifo_demo.peri.xml",
+            "synchronous_fifo/T20F256_devkit/fifo_demo.xml",
+            "synchronous_fifo/T20F256_devkit/fifo_demo_top.v",
+            "synchronous_fifo/T20F256_devkit/fifo_demo_T20.sdc",
+            "synchronous_fifo/T20F256_devkit/efx_symmetric_width_fifo_top.v",
+            "synchronous_fifo/T20F256_devkit/synchronous_fifo.v",
+            "synchronous_fifo/T20F256_devkit/synchronous_fifo_define.vh"
+        ],
+        "external_example_2": [
+            "synchronous_fifo/Ti60F225_devkit/fifo_demo.peri.xml",
+            "synchronous_fifo/Ti60F225_devkit/fifo_demo.xml",
+            "synchronous_fifo/Ti60F225_devkit/fifo_demo_top.v",
+            "synchronous_fifo/Ti60F225_devkit/fifo_demo_Ti60.sdc",
+            "synchronous_fifo/Ti60F225_devkit/efx_symmetric_width_fifo_top.v",
+            "synchronous_fifo/Ti60F225_devkit/synchronous_fifo.v",
+            "synchronous_fifo/Ti60F225_devkit/synchronous_fifo_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "synchronous_fifo/Testbench/fifo_tb.sv",
+            "synchronous_fifo/Testbench/xrun.sh",
+            "synchronous_fifo/Testbench/msim.sh",
+            "synchronous_fifo/Testbench/flist",
+            "synchronous_fifo/Testbench/modelsim.do",
+            "synchronous_fifo/Testbench/synchronous_fifo.v",
+            "synchronous_fifo/Testbench/synchronous_fifo_define.vh"
+        ]
+    },
+    "sw_version": "2024.2.294",
+    "generated_date": "2025-05-09T04:17:40.719078+00:00"
+}
